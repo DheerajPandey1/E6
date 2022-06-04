@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+class cars{
+    constructor(b,m){
+        this.brand=b;
+        
+        this.model=m;
+
+    }
+}
+let m1=new cars("suzuki","desire");
+console.log(m1)
+
+class sport extends cars {
+    constructor(b,m,a){
+        super(b,m);
+        this.average=a;
+       
+    }
+}
+let m2=new sport("BMW","BMWX5","12kmpl")
+console.log(m2);
+
+</script>
